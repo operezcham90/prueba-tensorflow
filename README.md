@@ -16,3 +16,14 @@ from google.colab import files
 model.save("model.h5")
 files.download("model.h5")
 ```
+
+Instalar herramienta para dibujar modelo:
+```
+pip install netron
+```
+
+Dibujar:
+```
+import netron
+netron.start('model.h5', browse=False)
+```
