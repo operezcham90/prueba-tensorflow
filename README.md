@@ -1,6 +1,6 @@
 # Prueba con TensorFlow
 
-Enlace de Google Colab: [ir](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb)
+Enlace de Google Colab: [Tutorial CLasificación](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/classification.ipynb)
 
 Para dibujar el modelo:
 
