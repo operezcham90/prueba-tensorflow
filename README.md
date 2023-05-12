@@ -18,12 +18,8 @@ files.download("model.h5")
 ```
 
 Instalar herramienta para dibujar modelo:
-```
-pip install netron
-```
-
-Dibujar:
-```
-import netron
-netron.start('model.h5', browse=False)
+```python
+!pip install visualkeras
+import visualkeras
+visualkeras.layered_view(model, legend=True, scale_xy=2.0)
 ```
